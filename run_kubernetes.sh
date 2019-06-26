@@ -8,7 +8,7 @@ dockerpath=tomasalabes/talabes-udacity
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run --image=tomasalabes/talabes-udacity:latest --port 8000
+kubectl run --image=tomasalabes/talabes-udacity:latest --port 8000 talabes-udacity
 
 # Step 3:
 # List kubernetes pods
